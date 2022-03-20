@@ -1,0 +1,6 @@
+. ~/.screenlayout/dual-monitor.sh &
+nitrogen --restore &
+compton &
+cairo-dock &
+env GDK_BACKEND=x11 /usr/bin/ulauncher --hide-window --hide-window --hide-window --hide-window &
+tint2 &
